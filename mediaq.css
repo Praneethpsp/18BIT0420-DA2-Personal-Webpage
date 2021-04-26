@@ -1,0 +1,302 @@
+@media only screen and (min-width: 50px) and (max-width: 767px) {
+  * {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .wrapper {
+    width: 85vw;
+    margin: 0 auto;
+  }
+  
+
+  header .hero-content {
+    margin-top: 1rem;
+    margin-bottom: 1.1rem;
+  }
+
+  header {
+    padding-top: 10px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150%;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  header p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 20px;
+    width: 100%;
+  }
+
+  .social-icons {
+    display: none;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+
+  .disbtn {
+    background-color: #000000;
+    opacity: 0.8;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+  }
+
+ .skills {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 4rem;
+  }
+
+  .certifications{
+    padding-bottom:1rem;
+  }
+
+  .contactform {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .formcontent {
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+
+  input {
+    width: 90%;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  textarea {
+    width: 90%;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .social-iconsf {
+    display: none;
+    width: 2px;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+
+  .social-iconsf a {
+    margin: 0 12.7px;
+  }
+
+  .submitbtn {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    width: 70px;
+    font-family: "Poppins", sans-serif;
+    background: white;
+    color: #000000;
+    margin-left: 33%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  ::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+  }
+
+  .logo {
+    margin-top: 0.5rem;
+  }
+
+  .email {
+    align-items: center;
+    font-size: 15px;
+  }
+
+
+  .heroimg {
+    height: 193px;
+    width: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .brl {
+    display: none;
+  }
+
+  .footer-social-icons {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  i {
+    font-size: 22px;
+    margin: 10px 11px;
+    color: white;
+  }
+
+  .credits {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .credits0 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-bottom: 60px;
+  }
+
+  .blackfoot {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    margin: 0;
+  }
+
+  .blackfoot p{
+    width: 90vw;
+    margin: 0% auto;
+    padding-top: 2.5rem;
+  }
+  .copyrighttext {
+    padding: 2.5rem 0;
+  }
+
+  .animate__animated.animate__zoomInDown {
+    --animate-duration: 1150ms;
+    margin-bottom: 30px;
+  }
+
+  .study {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .resume {
+    font-weight: bold;
+    font-size: 130%;
+    text-align: center;
+  }
+
+  .study span{
+  font-size: 12px;
+}
+
+  .resbtn {
+    background-color: #000000;
+    opacity: 0.8;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+  }
+
+  .reslink {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .nav-container {
+    display: none;
+  }
+  .hero{
+height: 3.5rem;
+width: 8rem;
+}
+.menu{
+  padding-left: 1rem;  
+  list-style-type: none;
+}
+.logo {
+  font-size: 20px;
+  padding: 7.5px 10px 7.5px 0;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+  color: gold;
+}
+.item a{
+text-decoration: none;
+color: #000000;
+}
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li a {
+  display: block;
+  padding: 15px 5px;
+}
+.menu i{
+  color: #000000;
+  margin-right: 2rem;
+}
+.toggle {
+  order: 1;
+  font-size: 20px;
+}
+.item.button {
+  order: 2;
+}
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.active .item {
+  display: block;
+}
+}
